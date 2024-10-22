@@ -1,0 +1,73 @@
+/* :root {
+  --primary-color: #000000; 
+  --secondary-color: #F4A460; 
+  --text-color: #333333;
+  --background-color: #FFF8DC; 
+  --accent-color: #228B22; 
+  --border-color: #D2B48C; 
+  
+  --foreground: var(--text-color);
+  --background: var(--background-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #000000; 
+    --secondary-color: #DEB887; 
+    --text-color: #E0E0E0;
+    --background-color: #ffffff;
+    --accent-color: #32CD32; 
+    --border-color: #8B4513; 
+    
+    --foreground: var(--text-color);
+    --background: var(--background-color);
+  }
+}
+*/
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background:url('https://images.unsplash.com/photo-1506102383123-c8ef1e872756?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Noto Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/*
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h2, h4, h6 {
+  color: var(--primary-color);
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */

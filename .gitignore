@@ -250,6 +250,7 @@ web_modules/
 .parcel-cache
 
 # Next.js build output
+frontend/.next/
 .next
 out
 
